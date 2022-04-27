@@ -3,7 +3,7 @@ import java.io.*;
 public class Escrita {
     public static void main(String[] args) throws IOException {
 
-        FileOutputStream arquivo = new FileOutputStream("/Users/alex/Documents/workspace/ExemploDeIO/src/entrada2");
+        FileOutputStream arquivo = new FileOutputStream("entrada2.txt");
         Writer leitor = new OutputStreamWriter(arquivo);
         BufferedWriter escritorbuffer = new BufferedWriter(leitor);
 
